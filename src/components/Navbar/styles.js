@@ -3,7 +3,9 @@ import styled from 'styled-components';
 export const Container = styled.header`
 	max-width: 1140px;
 	margin: 0 auto;
-  padding: 0 15px;
+  padding: 2rem 1rem 1rem;
+  display: flex;
+  justify-content: center;
 	nav ul {
 		display: flex;
 		align-items: center;
