@@ -4,7 +4,7 @@ import logo from "../../../src/assets/images/logo.svg";
 export function Navbar() {
   return (
     <Container>
-      <nav id="navbuttons">
+      
         <ul>
           <li><a href=".">Quem Somos</a></li>
           <li><a href=".">Como Funciona</a></li>
@@ -14,7 +14,7 @@ export function Navbar() {
           <li><a href=".">Perguntas Frequentes</a></li>
           <li><a href=".">Newsletter</a></li>
         </ul>
-      </nav>
+      
     </Container>
   )
 }

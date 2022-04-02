@@ -7,9 +7,9 @@ export const Container = styled.header`
   justify-content: center;
   background-color: var(--primaryblue);
   color: var(--textwhite);
-	nav {
-      display: flex;
-      align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
     ul{
       display: flex;
       gap: 1.5rem;
@@ -20,9 +20,9 @@ export const Container = styled.header`
         text-decoration: none;
         padding: 1rem;
         color: var(--black);
-        font-size: 1.25rem;
+        font-size: 1rem;
       }
     }
-		}
-	}
+	
+}
 `;

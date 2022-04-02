@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
+
 export const GlobalStyle = createGlobalStyle`
   :root {
     --primarysand: #DEBD9A;
@@ -38,14 +39,13 @@ export const GlobalStyle = createGlobalStyle`
 
   body, input, textarea, button {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
   }
 
   h1, h2 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
   }
 
-  h1, h2, h3, strong {
+  h1, h3{
     font-weight: 700;
   }
 

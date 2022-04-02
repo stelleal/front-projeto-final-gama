@@ -10,14 +10,14 @@ export const Background = styled.article`
   .container {
   margin: auto;
   padding: 0 1rem;
-  height: 36rem;
+  height: auto;
   display: flex;
   justify-content: end;
   
 
   div {
-    margin: 5rem;
-    max-width: 40rem;
+    margin: 8rem;
+    max-width: 35rem;
     max-height: 20rem;
     color: var(--textwhite);
 
@@ -28,7 +28,7 @@ export const Background = styled.article`
 
     p {
       margin-bottom: 3.5rem;
-      font-size: 1.25rem;
+      font-size: 1rem;
     }
   }
 }

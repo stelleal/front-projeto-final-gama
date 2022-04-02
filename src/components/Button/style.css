@@ -1,12 +1,26 @@
 .button {
-    font-size: 1rem;
-    text-transform: uppercase;
-    padding: 1rem 1.5rem;
-    border-radius: 8px;
-    border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+  border-radius: 8px;
   }
 
 .banner {
-    color: var(--textwhite);
-    background-color: var(--secondaryblue);
+  color: var(--textwhite);
+  background-color: var(--secondaryblue);
+  border: none;
 }
+
+.calltoaction {
+  color: var(--textwhite);
+  background-color: var(--primaryblue);
+  border: none;
+}
+
+.secondarybutton {
+  color:var(--primaryblue);
+  background-color: transparent;
+  border-color: var(--primaryblue);
+} 
+/* Refazer o Secondarybutton com a borda interna */
