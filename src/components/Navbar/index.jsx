@@ -2,7 +2,6 @@ import { Container } from "./styles";
 import logo from "../../../src/assets/images/logo.svg";
 
 export function Navbar() {
-
   return (
     <Container>
       <nav id="navbuttons">

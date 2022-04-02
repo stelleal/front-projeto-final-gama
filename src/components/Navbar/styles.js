@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.header`
 	margin: auto;
-  padding: 3.375rem 1rem;
+  padding: 2.5rem 1rem;
   display: flex;
   justify-content: center;
   background-color: var(--primaryblue);

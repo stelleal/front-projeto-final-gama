@@ -22,11 +22,12 @@ export const Background = styled.article`
     color: var(--textwhite);
 
     h1 {
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
       font-size: 2.75rem;
     }
 
     p {
+      margin-bottom: 3.5rem;
       font-size: 1.25rem;
     }
   }
