@@ -1,23 +1,28 @@
 import styled from 'styled-components';
+import banner from "../../../src/assets/images/banner.svg"
 
 export const Background = styled.article`
   background-color: #e1e1e1;
+  background-image: url(${banner});
+  background-repeat: no-repeat;
+  background-size: cover;
 
   .container {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 15px;
-  height: 535px;
-  border: 1px solid red; //retirar
+  margin: auto;
+  padding: 0 1rem;
+  height: 36rem;
   display: flex;
-  align-items: center;
+  justify-content: end;
+  
 
   div {
-    max-width: 632px;
-    border: 1px solid blue; //retirar
+    margin: 5rem;
+    max-width: 40rem;
+    max-height: 20rem;
+    color: var(--textwhite);
 
     h1 {
-      margin-bottom: 81px;
+      margin-bottom: 3rem;
       font-size: 2.75rem;
     }
 

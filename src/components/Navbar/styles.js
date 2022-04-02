@@ -1,27 +1,28 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-	max-width: 1140px;
-	margin: 0 auto;
-  padding: 2rem 1rem 1rem;
+	margin: auto;
+  padding: 3.375rem 1rem;
   display: flex;
   justify-content: center;
-	nav ul {
-		display: flex;
-		align-items: center;
-		gap: 36px;
-
+  background-color: var(--primaryblue);
+  color: var(--textwhite);
+	nav {
+      display: flex;
+      align-items: center;
+    ul{
+      display: flex;
+      gap: 1.5rem;
 		li {
       list-style: none;
-
       a {
         display: inline-block;
         text-decoration: none;
-        padding: 7px 0;
-        margin: 10px 0;
+        padding: 1rem;
         color: var(--black);
         font-size: 1.25rem;
       }
+    }
 		}
 	}
 `;

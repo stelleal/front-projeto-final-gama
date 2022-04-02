@@ -10,6 +10,7 @@ export function Banner() {
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dicta dolorum
 						laborum aperiam expedita molestiae doloremque esse? Magni, in amet?
 					</p>
+					{/* Button */}
 				</div>
 			</div>
 		</Background>
