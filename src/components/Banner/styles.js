@@ -13,7 +13,6 @@ export const Background = styled.article`
   height: auto;
   display: flex;
   justify-content: end;
-  
 
   div {
     margin: 8rem;

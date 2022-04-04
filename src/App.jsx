@@ -1,7 +1,10 @@
-import { Banner } from './components/Banner';
-import { Navbar } from './components/Navbar';
 import { GlobalStyle } from './assets/styles/global';
+import { Navbar } from './components/Navbar';
+import { Banner } from './components/Banner';
+import { SectionOne } from './components/SectionOne';
 import { Buttons } from './components/Button';
+import {Card} from './components/Cards'
+import { Footer } from './components/Footer';
 
 export function App() {
 	return (
@@ -9,8 +12,11 @@ export function App() {
 			<Navbar />
 			<Banner />
 			<GlobalStyle />
+			<SectionOne />
+			<Card/>
 			<Buttons variante="calltoaction" texto="Saiba mais" />
 			<Buttons variante="secondarybutton" texto="Saiba mais" />
+			<Footer />
 		</>
 	);
 }

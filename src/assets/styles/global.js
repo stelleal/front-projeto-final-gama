@@ -5,9 +5,9 @@ export const GlobalStyle = createGlobalStyle`
   :root {
     --primarysand: #DEBD9A;
     --primaryblue: #073044;
-    --primarygreen: #f2b749;
-    --primaryorange: #bf7c41;
-    --primarybrown: #590902;
+    --primarygreen: #004B46;
+    --primaryorange: #ED7F47;
+    --primarybrown: #773F30;
     --secondaryblue: #7AA4B2;
     --secondarygreen: #6DA99F;
     --secondarypeach: #E8C9C2;
@@ -37,7 +37,7 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
 
-  body, input, textarea, button {
+  h4, body, input, textarea, button {
     font-family: 'Poppins', sans-serif;
   }
 
