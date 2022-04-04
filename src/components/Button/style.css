@@ -21,6 +21,6 @@
 .secondarybutton {
   color:var(--primaryblue);
   background-color: transparent;
-  border-color: var(--primaryblue);
+  border: 2px inset var(--primaryblue);
 } 
 /* Refazer o Secondarybutton com a borda interna */
