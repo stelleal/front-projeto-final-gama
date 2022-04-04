@@ -23,17 +23,4 @@
   background-color: transparent;
   border-color: var(--primaryblue);
 } 
-
-.instagram {
-  background-image: url(../../../src/assets/images/ig.svg);
-  height: 1rem;
-}
-
-.twitter {
-
-}
-
-.facebook{
-
-}
 /* Refazer o Secondarybutton com a borda interna */
