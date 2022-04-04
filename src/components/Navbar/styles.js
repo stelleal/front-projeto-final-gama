@@ -10,11 +10,14 @@ export const Container = styled.header`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
     ul{
       display: flex;
       gap: 1.5rem;
+
 		li {
       list-style: none;
+      
       a {
         display: inline-block;
         text-decoration: none;
