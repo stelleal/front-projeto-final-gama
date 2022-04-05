@@ -17,7 +17,7 @@ export const Section = styled.section`
     margin: 8rem;
     max-width: 100vh;
     max-height: 20rem;
-    color: var(--textdark);
+    color: var(--textblack);
         
         h2 {
         margin-bottom: 2rem;

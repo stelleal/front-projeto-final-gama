@@ -2,7 +2,7 @@ import { Section } from './styles';
 import { Buttons } from '../Button';
 import coffeebeans from "../../../src/assets/images/coffee-beans.svg";
 
-export function Info () {
+export function Infobox () {
     return (
         <Section>
         <section>

@@ -19,13 +19,15 @@
 }
 
 .secondarybutton {
+  width: 12rem;
   color:var(--primaryblue);
   background-color: transparent;
   border: 2px inset var(--primaryblue);
 } 
 
-.region {
+.secondarybutton:hover {
+  width: 12rem;
+  color:var(--textwhite);
   background-color: var(--primaryblue);
-  color: var(--textwhite);
-}
-/* Refazer o Secondarybutton com a borda interna */
+  border: 2px inset var(--primaryblue);
+} 

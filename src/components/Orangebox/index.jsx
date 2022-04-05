@@ -2,7 +2,7 @@ import { Buttons } from "../Button";
 import { Container } from "./styles";
 import coffeepack from "../../../src/assets/images/coffee-pack.svg";
 
-export function Ship() { 
+export function Orangebox() { 
     return (
         <Container>
              <img src={coffeepack} alt="Grãos de café" />
@@ -13,4 +13,4 @@ export function Ship() {
             </div>   
         </ Container>
  )
-}
+};
