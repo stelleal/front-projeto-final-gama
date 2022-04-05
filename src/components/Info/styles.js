@@ -8,11 +8,11 @@ export const Section = styled.section`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
     section {
         display: flex;
         align-items: center;
         
-    }
     div {
     margin: 8rem;
     max-width: 100vh;
@@ -33,8 +33,8 @@ export const Section = styled.section`
 
   img {
     width: 48%;
-            
- }
+  }        
+}
 
  .infos {
      margin: 5rem 0;
@@ -43,7 +43,7 @@ export const Section = styled.section`
      flex-direction: column;
      background: rgba(255, 255, 255, 0.3);
      box-shadow: 10px 10px 128px rgba(7, 48, 68, 0.07);
-
+     backdrop-filter: blur(20px);
 
     .steps {
         margin: 0 0 1rem;
@@ -91,15 +91,5 @@ export const Section = styled.section`
             }
         }
     }
- }
-
- #title{
-     display: flex;
-     flex-direction: column;
-
-     #regionsbuttons {
-         display: flex;
-         gap: 2rem; 
-     }
  }
 `;

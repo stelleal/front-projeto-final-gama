@@ -1,4 +1,4 @@
- import { Buttons } from "../Button"
+ import { Buttons } from "../Button";
 
  export function Regions() {
  <section id='title'>

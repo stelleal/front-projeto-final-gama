@@ -4,6 +4,7 @@ import { Banner } from './components/Banner';
 import { Info } from './components/Info';
 import { Buttons } from './components/Button';
 // import {Card} from './components/Cards'
+import { Ship } from './components/Ship';
 import { Footer } from './components/Footer';
 // import { Regions } from './components/Regions';
 
@@ -14,9 +15,10 @@ export function App() {
 			<Banner />
 			<GlobalStyle />
 			<Info />
+			<Ship />
 			{/* <Card/>	 */}
-			{/* <Buttons variante="calltoaction" texto="Saiba mais" />
-			<Buttons variante="secondarybutton" texto="Saiba mais" /> */}
+			<Buttons variante="calltoaction" texto="Saiba mais" />
+			<Buttons variante="secondarybutton" texto="Saiba mais" />
 			<Footer />
 		</>
 	);
