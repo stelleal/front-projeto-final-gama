@@ -5,36 +5,10 @@ export const Section = styled.section`
     margin: auto;
     height: auto;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-
-    img {
-        width: 45%;
-    }
-    div {
-    margin: 8rem;
-    max-width: 35rem;
-    max-height: 20rem;
-    color: var(--textdark);
-
-    h2 {
-      margin-bottom: 2rem;
-      font-size: 2.375rem;
-      color: var(--primaryorange);
-    }
-
-    p {
-      margin-bottom: 3.5rem;
-      font-size: 1rem;
-    }
-  }
-}
-=======
-    display: flex;
     flex-direction: column;
-    
-    
+    text-align: center;
     section {
         display: flex;
         align-items: center;
@@ -96,10 +70,11 @@ export const Section = styled.section`
         margin-bottom: 5rem;
         display: flex;
         justify-content: center;
-        gap: 1.5rem;
+        align-items: flex-start;
+        gap: 3rem;
 
         li {
-            
+            max-width: 15rem;
             list-style: none;
             display: flex;
             flex-direction: column;
@@ -115,5 +90,4 @@ export const Section = styled.section`
         }
     }
  }
->>>>>>> 2a7dc18674096d10f565368713c27610417a4ec5
 `;
