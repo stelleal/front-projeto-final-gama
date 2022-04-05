@@ -37,7 +37,7 @@ export const Section = styled.section`
 }
 
  .infos {
-     margin: 5rem 0;
+     margin: 0 0 4rem 0;
      padding: 5.625rem;
      display: flex;
      flex-direction: column;
