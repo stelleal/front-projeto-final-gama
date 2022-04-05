@@ -10,9 +10,9 @@ export function Info () {
                         <h2>Aqui você irá encontrar os melhores grãos selecionados cuidadosamente para entrar na sua casa</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dicta dolorum laborum aperiam expedita molestiae doloremque esse? Magni, in amet?</p>
                     </div>
-                    <img src={coffeebeans} alt="Logo" />
+                    <img src={coffeebeans} alt="Grãos de café" />
                 </section>
-                <section className='info'>
+                <section className='infos'>
                     <h1>Como funciona?</h1>
                     <ul>
                         <li><div className='steps'><h1>1</h1></div><h4>Escolha a região do grão</h4></li>

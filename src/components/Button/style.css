@@ -23,4 +23,9 @@
   background-color: transparent;
   border: 2px inset var(--primaryblue);
 } 
+
+.region {
+  background-color: var(--primaryblue);
+  color: var(--textwhite);
+}
 /* Refazer o Secondarybutton com a borda interna */

@@ -8,7 +8,6 @@ export const Section = styled.section`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center;
     section {
         display: flex;
         align-items: center;
@@ -37,11 +36,13 @@ export const Section = styled.section`
             
  }
 
- .info {
+ .infos {
      margin: 5rem 0;
+     padding: 5.625rem;
      display: flex;
      flex-direction: column;
-     background-color: rgba(255, 255, 255, 0.3);
+     background: rgba(255, 255, 255, 0.3);
+     box-shadow: 10px 10px 128px rgba(7, 48, 68, 0.07);
 
 
     .steps {
@@ -72,6 +73,7 @@ export const Section = styled.section`
         justify-content: center;
         align-items: flex-start;
         gap: 3rem;
+        text-align: center;
 
         li {
             max-width: 15rem;
@@ -89,5 +91,15 @@ export const Section = styled.section`
             }
         }
     }
+ }
+
+ #title{
+     display: flex;
+     flex-direction: column;
+
+     #regionsbuttons {
+         display: flex;
+         gap: 2rem; 
+     }
  }
 `;
