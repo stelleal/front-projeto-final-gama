@@ -1,0 +1,22 @@
+.lista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--textwhite);
+  }
+  
+  .lista h4 {
+    font-size: 1rem;
+  }
+
+  .lista li a {
+    color: var(--textwhite);
+    text-decoration: none;
+    font-size: 0.8rem;  
+  }
+  
+  .lista li a:hover {
+    color: var(--primaryorange);
+  }
+  

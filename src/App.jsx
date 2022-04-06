@@ -18,8 +18,6 @@ export function App() {
 			<Regionsbox />
 			<Orangebox />
 			{/* <Card/>	 */}
-			<Buttons variante="calltoaction" texto="Saiba mais" />
-			<Buttons variante="secondarybutton" texto="Saiba mais" />
 			<Footer />
 		</>
 	);

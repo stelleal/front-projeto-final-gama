@@ -6,7 +6,7 @@ export function Regionsbox() {
         <Section>
             <div id='title'>
                 <h1>Grãos do Brasil</h1>
-                <p>Aqui você irá escolher de qual Estado você quer seu café</p>
+                <p>Aqui você irá escolher de qual região você quer seu café</p>
             </div>
             <div id='buttonsregion'>
                 <Buttons variante="secondarybutton" texto="Centro-oeste" />
