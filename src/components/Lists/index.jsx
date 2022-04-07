@@ -6,7 +6,7 @@ export function List({ itens, titulo }) {
       <h4>{titulo}</h4>
 
       {itens.map((item) => (
-        <li>
+        <li key={item.nome}>
           <a href={item.link}>{item.nome}</a>
         </li>
       ))}

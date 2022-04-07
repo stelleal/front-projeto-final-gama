@@ -12,12 +12,12 @@ export const Background = styled.article`
   padding: 0 1rem;
   height: auto;
   display: flex;
+  align-items: center;
   justify-content: end;
 
   div {
-    margin: 8rem;
-    max-width: 35rem;
-    max-height: 20rem;
+    margin: 8rem 1rem;
+    max-width: 55ch;
     color: var(--textwhite);
 
     h1 {
