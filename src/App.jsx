@@ -1,5 +1,5 @@
 import { GlobalStyle } from './assets/styles/global';
-import { Buttons } from './components/Button';
+// import { Buttons } from './components/Button';
 import { Navbar } from './components/Navbar';
 import { Banner } from './components/Banner';
 import { Infobox } from './components/Infobox';
