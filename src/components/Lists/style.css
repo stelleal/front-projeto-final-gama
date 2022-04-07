@@ -1,22 +1,23 @@
-.lista {
+.list {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1rem;
     color: var(--textwhite);
   }
   
-  .lista h4 {
+  .list h4 {
     font-size: 1rem;
   }
 
-  .lista li a {
+  .list li a {
     color: var(--textwhite);
     text-decoration: none;
     font-size: 0.8rem;  
+    transition: color 0.2s;
   }
   
-  .lista li a:hover {
+  .list li a:hover {
     color: var(--primaryorange);
   }
   

@@ -1,9 +1,9 @@
 import styled from 'styled-components';
-import banner from "../../../src/assets/images/banner.svg"
+import bannerImg from "../../../src/assets/images/banner.svg"
 
 export const Background = styled.article`
   background-color: #e1e1e1;
-  background-image: url(${banner});
+  background-image: url(${bannerImg});
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -16,7 +16,7 @@ export const Background = styled.article`
   justify-content: end;
 
   div {
-    margin: 8rem 1rem;
+    margin: 8rem 4rem;
     max-width: 55ch;
     color: var(--textwhite);
 
@@ -28,6 +28,8 @@ export const Background = styled.article`
     p {
       margin-bottom: 3.5rem;
       font-size: 1rem;
+      color: inherit;
+
     }
   }
 }

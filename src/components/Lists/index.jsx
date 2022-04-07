@@ -1,13 +1,13 @@
 import "./style.css";
 
-export function List({ itens, titulo }) {
+export function List({ itens, title }) {
   return (
-    <ul className="lista">
-      <h4>{titulo}</h4>
+    <ul className="list">
+      <h4>{title}</h4>
 
       {itens.map((item) => (
-        <li key={item.nome}>
-          <a href={item.link}>{item.nome}</a>
+        <li key={item.text}>
+          <a href={item.link}>{item.text}</a>
         </li>
       ))}
     </ul>

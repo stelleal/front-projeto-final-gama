@@ -30,11 +30,17 @@ export const GlobalStyle = createGlobalStyle`
     @media (max-width: 780px) {
       font-size: 87.5%; // 1rem = 14px
     }
+
+    @media (max-width: 500px) {
+      font-size: 81,25%; // 1rem = 14px
+    }
+
   }
 
   body {
     background: var(--white);
     -webkit-font-smoothing: antialiased;
+    align-items: initial;
   }
 
   h4, body, input, textarea, button {

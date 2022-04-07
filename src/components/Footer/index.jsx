@@ -1,58 +1,59 @@
-import { Section } from "./styles";
+import { Container } from "./styles";
 import { List } from "../Lists";
 // import { Buttons } from '../Button';
-import logowhite from "../../../src/assets/images/logo-white-simple.svg";
-import instagram from "../../../src/assets/images/ig.svg";
-import facebook from "../../../src/assets/images/fb.svg";
-import twitter from "../../../src/assets/images/twitter.svg";
+
+import logowhiteImg from "../../../src/assets/images/logo-white-simple.svg";
+import instagramImg from "../../../src/assets/images/ig.svg";
+import facebookImg from "../../../src/assets/images/fb.svg";
+import twitterImg from "../../../src/assets/images/twitter.svg";
 
 
-const listaConheca = [
+const listAbout = [
     {
-      nome: "Quem somos",
+      text: "Quem somos",
       link: "#",
     },
     {
-      nome: "Como funciona?",
+      text: "Como funciona?",
       link: "#",
     },
     {
-      nome: "Contatos",
+      text: "Contatos",
       link: "#",
     },
   ];
 
-const listaDuvida = [
+const listQuestions = [
     {
-      nome: "Nossa política de entrega",
+      text: "Nossa política de entrega",
       link: "#",
     },
     {
-      nome: "Política de privacidade",
+      text: "Política de privacidade",
       link: "#",
     },
     {
-      nome: "FAQ",
+      text: "FAQ",
       link: "#",
     },
   ];
 
 export function Footer() {
     return (
-        <Section>
+        <Container>
             <footer>
-                <List titulo="Nos conheça" itens={listaConheca} />
-                <List titulo="Tire suas dúvidas" itens={listaDuvida} />
+                <List title="Nos conheça" itens={listAbout} />
+                <List title="Tire suas dúvidas" itens={listQuestions} />
                 <div>
                     <h4>Nos siga nas redes</h4>
-                    <ul id="socialbuttons">
-                        <li><a href="." className="socialbutton"><img src={instagram} alt="Instagram" /></a></li>
-                        <li><a href="." className="socialbutton"><img src={facebook} alt="Facebook" /></a></li>
-                        <li><a href="." className="socialbutton"><img src={twitter} alt="Twitter" /></a></li>
+                    <ul id="socialbuttonslist">
+                        <li><a href="." className="socialbutton"><img src={instagramImg} alt="Instagram" /></a></li>
+                        <li><a href="." className="socialbutton"><img src={facebookImg} alt="Facebook" /></a></li>
+                        <li><a href="." className="socialbutton"><img src={twitterImg} alt="Twitter" /></a></li>
                     </ul>
                 </div>
-                <a href="."><img src={logowhite} alt="Logo White" /></a>
+                <a href="."><img src={logowhiteImg} alt="Logo White" /></a>
             </footer>
-        </Section>
+        </Container>
     )
 }

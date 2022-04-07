@@ -6,9 +6,9 @@ export function Banner() {
 		<Background>
 			<div className="container">
 				<div>
-					<h1>Nosso Slogan</h1>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dicta dolorum laborum aperiam expedita molestiae doloremque esse? Magni, in amet?</p>
-					<Buttons variante="banner" texto="Saiba mais" />
+					<h1>Cafés cultivados para despertar a realeza que habita em nós</h1>
+					<p>Momentos reais merecem qualidade e cuidado, e nossos grãos são cultivados e preparados para fazer seu momento ser majestoso</p>
+					<Buttons givenClass="banner" text="Saiba mais" />
 				</div>
 			</div>
 		</Background>

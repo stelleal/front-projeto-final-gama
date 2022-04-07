@@ -1,33 +1,42 @@
 .button {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
-  padding: 1rem 1.5rem;
-  text-transform: uppercase;
-  border-radius: 8px;
-  }
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	padding: 1rem 1.5rem;
+	text-transform: uppercase;
+	border-radius: 8px;
+}
 
 .banner {
-  color: var(--textwhite);
-  background-color: var(--secondaryblue);
-  border: none;
+	color: var(--textwhite);
+	background-color: var(--secondarygreen);
+	border: none;
+	transition: filter 0.2s;
+}
+
+.banner:hover {
+	filter: brightness(0.9);
 }
 
 .calltoaction {
-  color: var(--textwhite);
-  background-color: var(--primaryblue);
-  border: none;
+	color: var(--textwhite);
+	background-color: var(--primaryblue);
+	border: none;
+	transition: filter 0.2s;
+}
+
+.calltoaction:hover {
+	filter: brightness(1.15);
 }
 
 .secondarybutton {
-  width: 12rem;
-  color:var(--primaryblue);
-  background-color: transparent;
-  border: 2px inset var(--primaryblue);
-} 
+	width: 12rem;
+	color: var(--primaryblue);
+	background-color: transparent;
+	border: 2px inset var(--primaryblue);
+	transition: color 0.2s, background-color 0.2s;
+}
 
 .secondarybutton:hover {
-  width: 12rem;
-  color:var(--textwhite);
-  background-color: var(--primaryblue);
-  border: 2px inset var(--primaryblue);
-} 
+	color: var(--textwhite);
+	background-color: var(--primaryblue);
+}
