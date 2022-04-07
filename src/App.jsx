@@ -1,10 +1,12 @@
 import { GlobalStyle } from './assets/styles/global';
+// import { Buttons } from './components/Button';
 import { Navbar } from './components/Navbar';
 import { Banner } from './components/Banner';
-import { SectionOne } from './components/SectionOne';
-import { Buttons } from './components/Button';
-import {Card} from './components/Cards'
+import { Infobox } from './components/Infobox';
+import { Regionsbox } from './components/Regionsbox';
+import { Orangebox } from './components/Orangebox';
 import { Footer } from './components/Footer';
+import {Card} from './components/Cards';
 
 export function App() {
 	return (
@@ -12,10 +14,10 @@ export function App() {
 			<Navbar />
 			<Banner />
 			<GlobalStyle />
-			<SectionOne />
-			<Card/>
-			<Buttons variante="calltoaction" texto="Saiba mais" />
-			<Buttons variante="secondarybutton" texto="Saiba mais" />
+			<Infobox />
+			<Regionsbox />
+			<Card/>	
+			<Orangebox />
 			<Footer />
 		</>
 	);

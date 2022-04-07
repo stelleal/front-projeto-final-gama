@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 4rem;
+
+}
+.but-card {
+    background-color: #073044;
+    color: #ffffff;
+}
+
+p, h2 {
+    color: #073044;
+}
