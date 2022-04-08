@@ -4,7 +4,7 @@ import { Buttons } from '../Button';
 export function Infobox() {
 	return (
 		<>
-			<SectionText>
+			<SectionText id="aboutUs">
 				<div>
 					<h2>
 						Aqui você irá encontrar os melhores grãos selecionados cuidadosamente para
@@ -19,7 +19,7 @@ export function Infobox() {
 				</div>
 			</SectionText>
 
-			<SectionInfo>
+			<SectionInfo id="howItWorks">
 				<h1>Como funciona?</h1>
 				<ul>
 					<li>

@@ -10,11 +10,11 @@ import twitterImg from "../../../src/assets/images/twitter.svg";
 const listAbout = [
     {
       text: "Quem somos",
-      link: "#",
+      link: "/#aboutUs",
     },
     {
       text: "Como funciona?",
-      link: "#",
+      link: "/#howItWorks",
     },
     {
       text: "Contatos",
