@@ -1,5 +1,6 @@
 import { Container } from "./styles";
 import { List } from "../Lists";
+
 import logowhiteImg from "../../../src/assets/images/logo-white-simple.svg";
 import instagramImg from "../../../src/assets/images/ig.svg";
 import facebookImg from "../../../src/assets/images/fb.svg";

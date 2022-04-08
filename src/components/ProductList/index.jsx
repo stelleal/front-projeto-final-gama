@@ -12,7 +12,7 @@ export function ProductItem(props) {
 }
 
 export function ProductList() {
-    const [products, setProducts] = useState<ProductLists[]>([]);
+    const [products, setProducts] = useState([]);
 
     useEffect(()=> {
         fetch('.')
