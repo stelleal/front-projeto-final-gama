@@ -3,10 +3,8 @@ import coffeeBeansImg from '../../assets/images/coffee-beans.webp';
 
 export const SectionText = styled.section`
 	height: 45rem;
-
 	display: flex;
 	align-items: center;
-
 	background-image: url(${coffeeBeansImg});
 	background-position: right center;
 	background-repeat: no-repeat;
