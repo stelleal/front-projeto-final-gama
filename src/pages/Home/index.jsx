@@ -7,6 +7,8 @@ import { Regionsbox } from '../../components/Regionsbox';
 import { Orangebox } from '../../components/Orangebox';
 import { Footer } from '../../components/Footer';
 import {Card} from '../../components/Cards';
+// import Comment from '../../components/Comments';
+import CommentBox from '../../components/CommentBox';
 
 export default function Home() {
 	return (
@@ -18,6 +20,8 @@ export default function Home() {
 			<Regionsbox />
 			<Card/>	
 			<Orangebox />
+			<CommentBox />
+			{/* <Comment /> */}
 			<Footer />
 		</>
 	);
