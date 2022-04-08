@@ -1,24 +1,13 @@
-import { GlobalStyle } from './assets/styles/global';
-// import { Buttons } from './components/Button';
-import { Navbar } from './components/Navbar';
-import { Banner } from './components/Banner';
-import { Infobox } from './components/Infobox';
-import { Regionsbox } from './components/Regionsbox';
-import { Orangebox } from './components/Orangebox';
-import { Footer } from './components/Footer';
-import {Card} from './components/Cards';
+import Routes from "./Routes"
+import { GlobalStyle } from "./assets/styles/global";
 
-export function App() {
+function App() {
 	return (
 		<>
-			<Navbar />
-			<Banner />
+			<Routes />
 			<GlobalStyle />
-			<Infobox />
-			<Regionsbox />
-			<Card/>	
-			<Orangebox />
-			<Footer />
 		</>
 	);
 }
+
+export default App;
