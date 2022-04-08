@@ -1,6 +1,6 @@
 import "./style.css";
 import imagem from "../../assets/images/coffee1.png";
-import { Buttons } from "../Button";
+// import { Buttons } from "../Button";
 
 export function Card () {
   return ( 
