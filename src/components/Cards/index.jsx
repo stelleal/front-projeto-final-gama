@@ -1,6 +1,6 @@
 import "./style.css";
 import imagem from "../../assets/images/coffee1.png";
-// import { Buttons } from "../Button";
+import { Buttons } from "../Button";
 
 export function Card () {
   return ( 
@@ -8,31 +8,31 @@ export function Card () {
     <div className="row">
       <div className='card'>
       <img className='img-card' src={imagem} alt="coffee" />
-        <h2>Café beta 200g</h2>
+        <h3>Café beta 200g</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero culpa dolorem saepe minus. Tempora, tempore unde? Dolor, quibusdam saepe!</p>
         <p>Moido | Nordeste | Amargo</p>
-        <button className="but-card">COMPRAR</button>
+        <Buttons givenClass="primarybutton" text="Comprar" />
       </div>
       <div className='card'>
       <img className='img-card' src={imagem} alt="coffee" />
-        <h2>Café beta 200g</h2>
+        <h3>Café beta 200g</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero culpa dolorem saepe minus. Tempora, tempore unde? Dolor, quibusdam saepe!</p>
         <p>Moido | Nordeste | Amargo</p>
-        <button className="but-card">COMPRAR</button>
+        <Buttons givenClass="primarybutton" text="Comprar" />
       </div>
       <div className='card'>
       <img className='img-card' src={imagem} alt="coffee" />
-        <h2>Café beta 200g</h2>
+        <h3>Café beta 200g</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero culpa dolorem saepe minus. Tempora, tempore unde? Dolor, quibusdam saepe!</p>
         <p>Moido | Nordeste | Amargo</p>
-        <button className="but-card">COMPRAR</button>
+        <Buttons givenClass="primarybutton" text="Comprar" />
       </div>
       <div className='card'>
       <img className='img-card' src={imagem} alt="coffee" />
-        <h2>Café beta 200g</h2>
+        <h3>Café beta 200g</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero culpa dolorem saepe minus. Tempora, tempore unde? Dolor, quibusdam saepe!</p>
         <p>Moido | Nordeste | Amargo</p>
-        <button className="but-card">COMPRAR</button>
+        <Buttons givenClass="primarybutton" text="Comprar" />
       </div>
     </div>
   </> 

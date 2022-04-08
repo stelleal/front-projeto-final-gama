@@ -47,7 +47,7 @@ export function Infobox() {
 						<h4>Entregaremos no seu endereço</h4>
 					</li>
 				</ul>
-				<Buttons givenClass="calltoaction" text="Quero escolher agora" />
+				<Buttons givenClass="primarybutton" text="Quero escolher agora" />
 			</SectionInfo>
 		</>
 	);

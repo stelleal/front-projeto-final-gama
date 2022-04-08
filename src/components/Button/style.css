@@ -6,25 +6,27 @@
 	border-radius: 8px;
 }
 
-.banner {
+.calltoaction {
 	color: var(--textwhite);
 	background-color: var(--secondarygreen);
 	border: none;
 	transition: filter 0.2s;
 }
 
-.banner:hover {
+.calltoaction:hover {
+	background-color: #406E7D;
 	filter: brightness(0.9);
 }
 
-.calltoaction {
+.primarybutton {
 	color: var(--textwhite);
 	background-color: var(--primaryblue);
 	border: none;
 	transition: filter 0.2s;
 }
 
-.calltoaction:hover {
+.primarybutton:hover {
+	background-color: var(--primarybrown);
 	filter: brightness(1.15);
 }
 
@@ -40,3 +42,4 @@
 	color: var(--textwhite);
 	background-color: var(--primaryblue);
 }
+
