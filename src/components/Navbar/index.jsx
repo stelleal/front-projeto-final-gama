@@ -8,8 +8,8 @@ export function Navbar() {
             <a href="/#aboutUs">Quem Somos</a>
             <a href="/#howItWorks">Como Funciona</a>
             <a className="logo" href="."><img src={logo} alt="Logo" /></a>
-            <a href=".">Perguntas Frequentes</a>
-            <a href=".">Newsletter</a>
+            <a href="/#fretegratis">Frete Grátis</a>
+            <a href="/#depoimentos">Depoimentos</a>
         </div>
     </Container>
   )

@@ -4,7 +4,7 @@ import { Row, Container } from "./style";
 
 export default function CommentBox() {
     return (
-        <Container>
+        <Container id="depoimentos">
                 <h1>O que estão falando dos nossos cafés</h1>
                 <Row>
                     <Comment h2="Aroma incrível" text="”Um café de sabor encorpado e aroma inesquecível, virou comentário entre meus vizinhos de prédio que já sabem de onde vem o cheirinho de café no final da tarde.”" name="João da Silva" />
